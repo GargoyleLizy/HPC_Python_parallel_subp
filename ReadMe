@@ -1,0 +1,69 @@
+This project is used to support Matlab Algorithms running on Edward and Cloud
+
+Three Main Files:
+1. Matlab.sh
+	The qsub script. 
+	Just for my testing convenience, the three arguments that needed to provide for serial.py 
+	are hardcoded in it. 
+	But it is easy to allow users specify their own configuration. Just be aware that the 
+	corresponding environments should be setted first.
+	
+
+2. intP.py
+	A python script that responsible for extracting tasks from input file and calling matlab 
+	function with appropriate task arguments.
+
+	Three arguements : -i <inputfile> -o <output directory> -p <project directory> 
+		-i inputfile would specify where the tasks stores. 
+			The task format should be:
+				<model>-<task function>-<rxnlist>-<targetRxn>-<substrateRxn>-<MaxKOs>[-<imax>]
+			Examples are listed below:
+				E coli iJR904-BAFBA-all-UMPK-UNK3-5
+				E coli iJR904-BHFBA-all-UMPK-UNK3-1-10
+				E coli iJR904-DBFBA-all-UMPK-UNK3-5-10
+				* Beware that BAFBA do not need the "imax" attribute
+				** When the "rxnlist" attribute is "all". Its actual value would be model.rxns. 
+					Otherwise its value shoudl be a name of .xls file that contains 
+					appropriate rxn list. (The .xls file reading part should be fine but not
+					tested yet, since I do not have an right formated .xls file for the
+					three functions)	
+		-o output directory 
+			Specify where to store the result of tasks.
+			* The saving part of BAFBA/BHFBA/DBFBA are modified. Previously they store results
+			to a windows absolut address. This variable would allow program runs across platform
+		
+		-p project directory
+			Specify where the project resources are.
+
+		-ef external function
+			Specify which external funciton is used to process the tasks
+			Can use echo to test program
+
+		-m Mode
+			Two mode supported - bulk and ms
+			Mode bulk:
+				Each node read the task_list and then decide to do which list according to
+				its own rank.
+				Since the tasks are distributed predifined. It is not suitable for tasks that 
+				have a big difference in problem size
+			Mode ms:
+				Master-Slave architecture, allocate tasks in run time with the cost of one 
+				node to be master.
+	Algorithm:
+		Extracting tasks from input file and then iterate the tasklist. 
+		Call math_task.m for each task to process them.
+
+3. math_task.m
+	A matlab function that initialize the CobraToolbox and call the BAFBA/BHFBA/DBFBA with 
+	arguments that provided by serial.py
+	This matlab function requires essnetial resources located in certain places:
+		1. Project directory would be provided by user. (Refered it as $proj_dir)
+		2. CobraToolbox directory should locate in 
+			$proj_dir/toolboxes/cobratoolbox/cobratoolbox-master/
+		3. dataset and BAFBA/BHFBA/DBFBA shoudl locate in 
+			$proj_dir/SourceData/Dataset
+			$proj_dir/SourceData/BAFBA
+			$proj_dir/SourceData/BHFBA
+			$proj_dir/SourceData/DBFBA
+			* the .xls file that record rxn list should be located in Dataset directory
+
