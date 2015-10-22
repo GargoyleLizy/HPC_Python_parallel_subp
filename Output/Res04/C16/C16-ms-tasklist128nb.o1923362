@@ -1,0 +1,32 @@
+Master starting with 15 workers
+[Master][Send] task [0] to worker [4] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',3,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',3,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',2,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',4,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',5,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',6,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',2,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',4,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',5,10);exit"
+[Master][Send] task [1] to worker [2] 
+[Master][Send] task [2] to worker [5] 
+[Master][Send] task [3] to worker [6] 
+[Master][Send] task [4] to worker [10] 
+[Master][Send] task [5] to worker [1] 
+[Master][Send] task [6] to worker [12] 
+[Master][Send] task [7] to worker [13] 
+[Master][Send] task [8] to worker [7] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',2,10);exit"
+[Master][Send] task [9] to worker [11] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',3,10);exit"
+[Master][Send] task [10] to worker [9] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',4,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',5,10);exit"
+[Master][Send] task [11] to worker [3] 
+[Master][Send] task [12] to worker [15] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',6,10);exit"
+[Master][Send] task [13] to worker [14] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',7,10);exit"
+[Master][Send] task [14] to worker [8] 
+16 total processes killed (some possibly by mpirun during cleanup)

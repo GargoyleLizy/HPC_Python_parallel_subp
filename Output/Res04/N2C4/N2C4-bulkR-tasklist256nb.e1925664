@@ -1,0 +1,224 @@
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Subscripted assignment dimension mismatch.
+
+Error in BAFBA (line 285)
+                              bPosSort(:,m+k)   =  bPosSortcand(:,k);
+
+Error in math_task (line 45)
+        BAFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Subscripted assignment dimension mismatch.
+
+Error in BAFBA (line 285)
+                              bPosSort(:,m+k)   =  bPosSortcand(:,k);
+
+Error in math_task (line 45)
+        BAFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+=>> PBS: job killed: walltime 72014 exceeded limit 72000
+mpirun: killing job...
+
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 32245 on node edward034 exited on signal 0 (Unknown signal 0).
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+

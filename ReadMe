@@ -1,19 +1,33 @@
 This project is used to support Matlab Algorithms running on Edward and Cloud
 
-Three Main Files:
+
+For Edward part: 
+	How to use it:
+		1. Transfer all files in this project (except the RCloud directory which is for cloud part) to Edward.
+		2. The CobraToolBox is not included, download the CobraToolBox from github and put it under "SourceData" directory. 
+		3. Read the detailed description of the files below. and write your own qsub script and input files.
+		4. Qsub your script.
+
+		* If you are not doing the BAFBA,BHFBA,DBFBA project. The below detailed descriptiong would give you a vague idea of what program/data is need and where should you put them. Beware that you should write your own taskmaster.py to handle the input files and output them correctly. Remeber to specify "-ef echo" to check your taskmaster.py
+
+
+
+The detailed description of the components in Edward part:
+
 1. Matlab.sh
 	The qsub script. 
-	Just for my testing convenience, the three arguments that needed to provide for serial.py 
-	are hardcoded in it. 
-	But it is easy to allow users specify their own configuration. Just be aware that the 
-	corresponding environments should be setted first.
-	
+	Just for my testing convenience, the three arguments that needed to provide for intP.py and serial.py are hardcoded in it. 
+	But it is easy for users specifying their own configuration. Just be aware that the corresponding environments should be setted first.
+	Variable explanantion: 
+		InputFile: is the path of the file that contains the tasklist
+		OutputDir: is the path of the directory where outputs of the tasks would be stored
+		ProjectDir : is the path of the directory where the BHFBA,BAFBA and DBFBA matlab program and essential model data stored. 
 
 2. intP.py
 	A python script that responsible for extracting tasks from input file and calling matlab 
 	function with appropriate task arguments.
 
-	Three arguements : -i <inputfile> -o <output directory> -p <project directory> 
+	Arguements : -i <inputfile> -o <output directory> -p <project directory> -ef <external function> -m <mode>
 		-i inputfile would specify where the tasks stores. 
 			The task format should be:
 				<model>-<task function>-<rxnlist>-<targetRxn>-<substrateRxn>-<MaxKOs>[-<imax>]
@@ -25,12 +39,12 @@ Three Main Files:
 				** When the "rxnlist" attribute is "all". Its actual value would be model.rxns. 
 					Otherwise its value shoudl be a name of .xls file that contains 
 					appropriate rxn list. (The .xls file reading part should be fine but not
-					tested yet, since I do not have an right formated .xls file for the
+					tested yet, because I do not have an right formated .xls file for the
 					three functions)	
 		-o output directory 
 			Specify where to store the result of tasks.
 			* The saving part of BAFBA/BHFBA/DBFBA are modified. Previously they store results
-			to a windows absolut address. This variable would allow program runs across platform
+			to a "windows" address.
 		
 		-p project directory
 			Specify where the project resources are.
@@ -40,17 +54,18 @@ Three Main Files:
 			Can use echo to test program
 
 		-m Mode
-			Two mode supported - bulk and ms
+			Three mode supported - bulk and ms
 			Mode bulk:
-				Each node read the task_list and then decide to do which list according to
-				its own rank.
-				Since the tasks are distributed predifined. It is not suitable for tasks that 
-				have a big difference in problem size
+				Each node read the task_list and then decide to do which part of the list according to its own rank.
+				Since the tasks are distributed before runtime. It is not suitable for tasks that have a big variance in problem size
 			Mode ms:
 				Master-Slave architecture, allocate tasks in run time with the cost of one 
-				node to be master.
-	Algorithm:
-		Extracting tasks from input file and then iterate the tasklist. 
+				node working as master.
+			Mode bulk-r:
+				Similar to mode bulk. But the tasklist would be randomly permutated once before distributing them to worker processes.
+	
+	The intP.py would :
+		Extracts tasks from input file and then distributes them
 		Call math_task.m for each task to process them.
 
 3. math_task.m

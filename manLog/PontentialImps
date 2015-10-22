@@ -1,0 +1,79 @@
+Top -> !!
+
+Notes:
+	1.  tasksID can not be same
+	2. user program should put all result to a ./Output/ directory relative to its own path
+	3. user should write their own taskmaster class to extract tasks from input files and 
+		output tasks out as arguments to server.
+	4. The task master would retrieve the absolute path of proj&output of server and record them
+		in self.proj_path, self.output_dir. Users probably should take these variables into 
+		account if needed.
+	
+
+Bulk distributation
+	Done/ simple client/server
+	Done/ protocol
+		Done/ check stat
+		Done/ send tasks
+		Done/ processing tasks
+		Done/ Client can save contact information
+		Undone/ Server can redirect stdout/err to a log
+			Python can only redirect its own output/err, cannot manipulate the output/err buffer
+			of the function called by subprocess.
+		Done/ split the checkIP part from assignWork.
+		Done/ assignWork now need a task_master to take care of transformation work
+		Done/ all task result in Output, cleaning that dir before using it
+		Done/ Server can zip all files in Output to a Output with proper name.
+		checkprogress
+		Done/ server can handle checkprog 
+		Done/ client can handle checkprog
+
+	check progress 
+	retrieve result
+	Server's task executer decide the working directory based on the message from client, 
+		should rewrite this part protocol later to avoid mistakes.
+	keeps server running - tmux? screen? supervisor
+
+
+Automation
+	!! Ansible 
+	!! Boto
+		installed Octave, 
+		scp essential parts and servers and projs
+		
+
+Master Slave architecture 
+	!! 1. local machine as master and keeps linking 
+	!! 2. Specify a cloud node as master, and users can leave
+	3. fixed hierarchical organisation or Peers? 
+
+Client side
+	Done/!! interactive script for demonstration and training (useful for web service)
+		1. req_stat
+		2. req_proj_list
+		3. req_task with demo
+		4. check_prog with demo; peek the progress 
+		4. retrieve the result; 
+
+Server side
+	!! 1. Allow user transfer projs to server
+		user confirmed that proj is not on server - Request.req_stat
+		1.1 user send a .zip to server - Protocol: Request.install_proj (Authentication?)
+		1.2 Server unzip the file (Thats a way to update proj.)
+		1.3 server update its server_status.projs_list
+		1.4 server reply that the work is done
+
+Security
+	1. encrypt the messages, to avoid info leak
+	2. use ssl, to get secure links
+	3. Authentication, second level, so that users' tasks wont interfare with each other
+		Also, prevent malicious users waste the resources of cloud
+
+Interaction?
+	1. implement a web service/interface? just like math online,
+		Just users can upload their own projs and execut it as the like
+	Rest API?
+
+Performance?
+	1. better workbalance method?
+	2. 

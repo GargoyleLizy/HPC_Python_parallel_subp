@@ -1,0 +1,65 @@
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+

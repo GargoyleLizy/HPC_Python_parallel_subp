@@ -1,0 +1,8 @@
+=>> PBS: job killed: walltime 36012 exceeded limit 36000
+mpirun: killing job...
+
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 17581 on node edward047 exited on signal 0 (Unknown signal 0).
+--------------------------------------------------------------------------
+mpirun: clean termination accomplished
+

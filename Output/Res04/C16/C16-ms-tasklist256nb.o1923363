@@ -1,0 +1,71 @@
+Master starting with 15 workers
+[Master][Send] task [0] to worker [7] 
+[Master][Send] task [1] to worker [3] 
+[Master][Send] task [2] to worker [1] 
+[Master][Send] task [3] to worker [10] 
+[Master][Send] task [4] to worker [6] 
+[Master][Send] task [5] to worker [8] 
+[Master][Send] task [6] to worker [13] 
+[Master][Send] task [7] to worker [15] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',4,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',3,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',2,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',2,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',3,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',5,0);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',4,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',5,10);exit"
+[Master][Send] task [8] to worker [2] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',6,10);exit"
+[Master][Send] task [9] to worker [9] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',2,10);exit"
+[Master][Send] task [10] to worker [12] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',3,10);exit"
+[Master][Send] task [11] to worker [14] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',4,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',5,10);exit"
+[Master][Send] task [12] to worker [5] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',6,10);exit"
+[Master][Send] task [13] to worker [4] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',7,10);exit"
+[Master][Send] task [14] to worker [11] 
+[Master][Recv] task [2] from worker [1]
+[Master][Send] task [15] to worker [1] 
+[Master][Recv] task [0] from worker [7]
+[Master][Send] task [16] to worker [7] 
+[Master][Recv] task [3] from worker [10]
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',2,0);exit"
+[Master][Send] task [17] to worker [10] 
+[Master][Recv] task [1] from worker [3]
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',3,0);exit"
+[Master][Send] task [18] to worker [3] 
+[Master][Recv] task [4] from worker [6]
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',4,0);exit"
+[Master][Send] task [19] to worker [6] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BAFBA','all','UMPK','UNK3',5,0);exit"
+[Master][Recv] task [5] from worker [8]
+[Master][Send] task [20] to worker [8] 
+[Master][Recv] task [6] from worker [13]
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',2,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',5,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',6,10);exit"
+[Master][Send] task [21] to worker [13] 
+[Master][Recv] task [7] from worker [15]
+[Master][Send] task [22] to worker [15] 
+[Master][Recv] task [8] from worker [2]
+[Master][Send] task [23] to worker [2] 
+[Master][Recv] task [9] from worker [9]
+[Master][Send] task [24] to worker [9] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',2,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',3,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','BHFBA','all','UMPK','UNK3',4,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',3,10);exit"
+[Master][Recv] task [11] from worker [14]
+[Master][Send] task [25] to worker [14] 
+[Master][Recv] task [12] from worker [5]
+[Master][Send] task [26] to worker [5] 
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',4,10);exit"
+-nodesktop -nodisplay -nosplash -r "math_task('/home/zhenyal/rProject/','/home/zhenyal/rProject/Output/','E coli iJR904','DBFBA','all','UMPK','UNK3',5,10);exit"
+[Master][Recv] task [10] from worker [12]
+[Master][Send] task [27] to worker [12] 
+16 total processes killed (some possibly by mpirun during cleanup)

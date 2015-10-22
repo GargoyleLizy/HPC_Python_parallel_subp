@@ -1,0 +1,130 @@
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+{Undefined function or variable "tempval".
+
+Error in DBFBA (line 290)
+  temp = tempval(1,:);
+
+Error in math_task (line 53)
+	DBFBA(sbml_model,rxnList,targetRxn,substrateRxn,MaxKOs,imax,output_dir)
+} 
+=>> PBS: job killed: walltime 54035 exceeded limit 54000
+mpirun: killing job...
+
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 5489 on node edward016 exited on signal 0 (Unknown signal 0).
+--------------------------------------------------------------------------
+mpirun: abort is already in progress...hit ctrl-c again to forcibly terminate
+
+mpirun: clean termination accomplished
+
